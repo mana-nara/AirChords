@@ -1,6 +1,12 @@
-# AirChords
-Air Chords is a browser-based music tool that turns your webcam into a chord-playing companion. Use simple hand gestures to trigger natural-sounding instrument chords in real time — no instruments needed. Whether you're singing, jamming, or just experimenting, Air Chords lets you bring harmony to your voice with just a wave of your hand.
+# React + Vite
 
-## Collaborators
-1. Anirudh Venkatachalam - [GitHub](https://github.com/anirudhvee)
-2. Manasvini Narayanan - [GitHub](https://github.com/mana-nara)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
