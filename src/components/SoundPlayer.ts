@@ -12,5 +12,7 @@ const sounds: Record<string, Howl> = {
 export function playChord(chord: string): void {
   if (sounds[chord]) {
     sounds[chord].play();
+  } else {
+    console.warn(`No sound found for chord: ${chord}`);
   }
 }
